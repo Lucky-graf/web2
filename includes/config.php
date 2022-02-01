@@ -19,7 +19,7 @@ if (!defined('W2P_BASE_DIR')) {
 $w2Pconfig['dbtype'] = 'mysqli'; // ONLY MySQL is supported at present
 $w2Pconfig['dbchar'] = 'utf8'; // The character set used in the database
 $w2Pconfig['dbhost'] = 'localhost';
-$w2Pconfig['dbname'] = 'web2'; // Your web2Project Database Name
+$w2Pconfig['dbname'] = 'test1'; // Your web2Project Database Name
 $w2Pconfig['dbuser'] = 'myuser'; // Your MySQL Username
 $w2Pconfig['dbpass'] = 'mypassword'; // Your MySQL Password
 $w2Pconfig['dbprefix'] = ''; // The prefix used for db table names
