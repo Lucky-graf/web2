@@ -2236,7 +2236,7 @@ CREATE TABLE `users` (
 --
 -- Dumping data for table `users`
 --
-
+INSERT INTO `users` (`user_id`, `user_contact`, `user_username`, `user_password`, `user_parent`, `user_type`, `user_signature`, `user_empireint_special`, `user_department`, `user_company`) VALUES (1, 1, 'admin', 21232f297a57a5a743894a0e4a801fc3, 0, 1, '', 0, 0, 0);
 INSERT INTO `users` (`user_id`, `user_contact`, `user_username`, `user_password`, `user_parent`, `user_type`, `user_signature`, `user_empireint_special`, `user_department`, `user_company`) VALUES (1, 1, 'admin', md5('[ADMINPASS]'), 0, 1, '', 0, 0, 0);
 
 -- --------------------------------------------------------
