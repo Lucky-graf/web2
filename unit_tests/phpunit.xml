@@ -1,7 +1,0 @@
-<phpunit bootstrap="./CommonSetup.php">
-    <testsuites>
-        <testsuite name="Web2project Test Suite">
-            <directory>.</directory>
-        </testsuite>
-    </testsuites>
-</phpunit>
